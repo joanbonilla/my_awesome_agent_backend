@@ -10,4 +10,6 @@ A minimal example demonstrating how to build a reactive agent using LangGraph. T
 
 ## Command
 
+`uv run uvicorn app.server:app`
+
 `gcloud run deploy agent-backend --source . --region=us-central1 --project=demo-staging --allow-unauthenticated --service-account=service-account@demo-staging.iam.gserviceaccount.com --memory=1024Mi`
