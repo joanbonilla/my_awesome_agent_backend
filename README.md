@@ -8,4 +8,6 @@ A minimal example demonstrating how to build a reactive agent using LangGraph. T
 - **Streaming Support**: Includes streaming response capability using Vertex AI
 - **Sample Tool Integration**: Includes a basic search tool to demonstrate tool usage
 
+## Command
 
+`gcloud run deploy agent-backend --source . --region=us-central1 --project=demo-staging --allow-unauthenticated --service-account=service-account@demo-staging.iam.gserviceaccount.com --memory=1024Mi`
